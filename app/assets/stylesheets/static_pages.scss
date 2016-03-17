@@ -10,6 +10,8 @@
 body {
   background-color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  height: 100%;
 }
 
 #nav-container {
@@ -52,6 +54,11 @@ body {
 
 #search-bar {
   align-text: right;	
+}
+
+#carousel-example-generic {
+  height: 100%;
+  width: 100%;
 }
 
 #active-carousel-img {
