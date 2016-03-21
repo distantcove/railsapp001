@@ -3,7 +3,7 @@
   <!-- Indicators -->
   <ol class="carousel-indicators">
   	<% @products.each_with_index do |product, index| %>
-  	  <%= content_tag :li, image_tag(product.image_url), data: {target: "#carousel-example-generic", slide_to: index}, class: (index == 0 ? "active" : nil) %>
+  	  <%= content_tag :li, '', data: {target: "#carousel-example-generic", slide_to: index}, class: (index == 0 ? "active" : nil) %>
   	<% end %>  
   </ol>
 
