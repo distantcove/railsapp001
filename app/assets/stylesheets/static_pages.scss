@@ -57,14 +57,10 @@ body {
 }
 
 .carousel-inner > .item > img {
-min-width: 100%;
-min-height: 100%;
+margin: 0 auto;
+width: 1200px;
+height: 675px;
 }
-
-#active-carousel-img {
-  margin: 0 auto;
-}
-
 
 .fix-margin {margin: 0 auto}
 
