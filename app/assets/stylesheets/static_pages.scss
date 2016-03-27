@@ -62,6 +62,10 @@ width: 1200px;
 height: 675px;
 }
 
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
 .fix-margin {margin: 0 auto}
 
 .footer {
