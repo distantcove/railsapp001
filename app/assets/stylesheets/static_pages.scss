@@ -66,7 +66,9 @@ height: 675px;
     background-image: none;
 }
 
-.fix-margin {margin: 0 auto}
+.fix-margin {
+  margin: 0 auto
+}
 
 .footer {
   bottom: 0;
@@ -92,4 +94,12 @@ height: 675px;
 
 #bike-photo {
   margin-left: 350px;
+}
+
+// PRODUCTS PAGE STYLES
+
+.col-md-3 {
+  width: 25%;
+  height: 350px;
+  overflow: hidden;
 }
