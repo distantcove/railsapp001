@@ -19,7 +19,7 @@ class ProductsController < ApplicationController
 
   # GET /products/1/edit
   def edit
-    @product= Product.find(params[:id])
+    @product = Product.find(params[:id])
   end
 
   # POST /products
