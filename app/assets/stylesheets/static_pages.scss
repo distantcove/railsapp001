@@ -13,7 +13,7 @@ body {
   height: 100%;
 }
 
-  h1, h2 {
+h1, h2 {
     font-family: 'Inconsolata','Roboto','Open Sans', sans-serif;
     text-align: center;
     padding: 5px 5px 5px 15px;
@@ -96,6 +96,23 @@ height: 675px;
   font-size: 0.8em;
   font-weight: bold;
   color: #000000;
+}
+
+// CONTACT PAGE
+
+#contact {
+  text-align: left;
+  padding-top: 100px;
+  font-family: 'Inconsolata','Roboto','Open Sans', sans-serif;
+
+}
+
+#contact-form {
+  padding-left: 30px;
+}
+
+#send-btn {
+  padding-left: 20px;
 }
 
 // INDEX PAGE STYLES
