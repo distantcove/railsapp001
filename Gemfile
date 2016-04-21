@@ -62,3 +62,7 @@ end
   group :production do
   	gem 'pg'
   end	
+
+  # 'devise' enables authentication
+  gem 'devise'
+  
