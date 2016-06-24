@@ -24,6 +24,9 @@
 
 <div class ="page=wrap">
 
+  <p class="notice"><%= notice %></p>
+  <p class="alert"><%= alert %></p>
+
   <nav class="nav nav-pills navbar navbar-default">
     <div class="container-fluid" id="nav-container">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -67,6 +70,7 @@
             <% end %>
           </li>
         </ul>      
+
         <%= form_tag("/products", method: "get", class: "navbar-form navbar-right", id: "search-products") do %>
           <%= label_tag(:q, "Search Our Designs:", id: "search-label") %>
           <%= text_field_tag(:q) %>
